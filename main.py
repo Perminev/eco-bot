@@ -41,8 +41,8 @@ async def sberbank(ctx):
 @bot.command()
 async def guide(message):
         await message.channel.send(' **Список комманд:**')
-        await message.channel.send('> `$guide - показывает этот список`')
-        await message.channel.send('> `$ihte - если ты уже помог экологии пиши эту комманду`')
+        await message.channel.send('> `$guide - показывает этот список.`')
+        await message.channel.send('> `$ihte - если ты уже помог экологии пиши эту комманду.`')
         await message.channel.send('> `$tbc - теория, обобщённый рассказ о батарейке.`')
         await message.channel.send('> `$tbh - история батарейки.`')
         await message.channel.send('> `$tbn - рассказ о негативном влиянии батареек на экологию.`')
