@@ -32,7 +32,7 @@ async def tbc(message):
 
 @bot.command()
 async def sberbank(ctx):
-    with open(f'batteries/dea026b1afef149f44d94ce04f50c88a.png', 'rb') as f:
+    with open(f'dea026b1afef/dea026b1afef149f44d94ce04f50c88a.png', 'rb') as f:
         # В переменную кладем файл, который преобразуется в файл библиотеки Discord!
         picture = discord.File(f)
    # Можем передавать файл как параметр!
