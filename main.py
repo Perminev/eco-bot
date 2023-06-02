@@ -4,7 +4,6 @@ from settings import settings
 import os, random
 
 
-
 intents = discord.Intents.default()
 intents.members = True
 intents.message_content = True
@@ -41,8 +40,8 @@ async def sberbank(ctx):
 @bot.command()
 async def guide(message):
         await message.channel.send(' **Список комманд:**')
-        await message.channel.send('> `$guide - показывает этот список.`')
-        await message.channel.send('> `$ihte - если ты уже помог экологии пиши эту комманду.`')
+        await message.channel.send('> `$guide - показывает этот список`')
+        await message.channel.send('> `$ihte - если ты уже помог экологии пиши эту комманду`')
         await message.channel.send('> `$tbc - теория, обобщённый рассказ о батарейке.`')
         await message.channel.send('> `$tbh - история батарейки.`')
         await message.channel.send('> `$tbn - рассказ о негативном влиянии батареек на экологию.`')
@@ -63,5 +62,22 @@ async def tbn(message):
 async def twntd(message):
         await message.channel.send('Надо выкидывать использованные батарейки в специальный контейнер!')
 
+@bot.command()
+async def flip(ctx):
+    flip = random.randint(0, 2)
+    if flip == 0:
+        with open(f'coins/eagle.png', 'rb') as f:
+            # В переменную кладем файл, который преобразуется в файл библиотеки Discord!
+            picture = discord.File(f)
+    # Можем передавать файл как параметр!
+        await ctx.send(file=picture)
+        await ctx.channel.send("# ㅤEAGLE")
+    else:
+        with open(f'coins/tails.png', 'rb') as f:
+            # В переменную кладем файл, который преобразуется в файл библиотеки Discord!
+            picture = discord.File(f)
+    # Можем передавать файл как параметр!
+        await ctx.send(file=picture)  
+        await ctx.channel.send ("# ㅤРЕШКА")    
 
 bot.run(settings["TOKEN"])
