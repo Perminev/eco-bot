@@ -46,7 +46,8 @@ async def guide(message):
         await message.channel.send('> `$tbh - история батарейки.`')
         await message.channel.send('> `$tbn - рассказ о негативном влиянии батареек на экологию.`')
         await message.channel.send('> `$twntd - что надо делать что бы уменьшить вред экологии и окружающей среде.`')
-
+        await message.channel.send('> `$flip - орел и решка =)`')
+        
 #theorybatterieshistory
 @bot.command()
 async def tbh(message):
