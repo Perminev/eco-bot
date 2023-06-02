@@ -5,10 +5,11 @@
 </p>
 
 # Eco Bot 1v
-##   *This bot can send:*
-### ‣ Theory about batteries
-### ‣ Stickers with chubby(пухлик)
-### ‣ How to help the ecology
+##   *This bot can:*
+### ‣ Send theory about batteries
+### ‣ Send stickers with chubby(пухлик)
+### ‣ Say how to help the ecology
+### ‣ Flip coin
 ## ***HOW TO USE IT***
 ### > 1 [Download](https://www.python.org/downloads/) and install python 3.8, 3.9, 3.10 or newer
 ### > 2 Install discord library for python : 
