@@ -12,7 +12,7 @@
 ### ‣ Flip coin
 ### ‣ Send random emoji
 ## ***HOW TO USE IT***
-### > 1 [Download](https://www.python.org/downloads/) and install python 3.8, 3.9, 3.10 or newer
+### > 1 [Download](https://www.python.org/downloads/) and install python 3.8 or newer
 ### > 2 Install discord library for python : 
 ```shell
 pip install discord
