@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 from settings import settings
 import os, random
-
+from bot_logic import gen_emodji
 
 intents = discord.Intents.default()
 intents.members = True
@@ -81,4 +81,8 @@ async def flip(ctx):
         await ctx.send(file=picture)  
         await ctx.channel.send ("# ㅤРЕШКА")    
 
+@bot.command()
+async def emodji(message):
+        await message.channel.send(gen_emodji())
+        
 bot.run(settings["TOKEN"])
