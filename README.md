@@ -4,7 +4,7 @@
  <img src="https://img.shields.io/pypi/pyversions/so-vits-svc-fork.svg?style=flat-square&logo=python&amp;logoColor=fff" alt="Supported Python versions">
 </p>
 
-# Eco Bot 1.11v
+# Eco Bot 1.12v
 ##   *This bot can:*
 ### ‣ Send theory about batteries
 ### ‣ Send stickers with chubby(пухлик)
