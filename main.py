@@ -46,7 +46,9 @@ async def guide(message):
         await message.channel.send('> `$tbh - история батарейки.`')
         await message.channel.send('> `$tbn - рассказ о негативном влиянии батареек на экологию.`')
         await message.channel.send('> `$twntd - что надо делать что бы уменьшить вред экологии и окружающей среде.`')
-        await message.channel.send('> `$flip - орел и решка =)`')
+        await message.channel.send('> `$emodji - генерирует случайный смайлик зеленого цвета.`')
+        await message.channel.send('> `$about - обо мне.`')        
+        await message.channel.send('> `$flip - орел и решка =)`')   
         
 #theorybatterieshistory
 @bot.command()
@@ -84,5 +86,9 @@ async def flip(ctx):
 @bot.command()
 async def emodji(message):
         await message.channel.send(gen_emodji())
+        
+@bot.command()
+async def about(message):
+        await message.channel.send("*Hi! I am eco bot! My creator is* **Perminev.**")       
         
 bot.run(settings["TOKEN"])
