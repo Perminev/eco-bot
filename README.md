@@ -24,4 +24,4 @@ pip install discord
 ```shell
 $guide
 ``` 
-### > and enjoy!.
+### > and enjoy!
