@@ -67,14 +67,14 @@ async def twntd(message):
 async def flip(ctx):
     flip = random.randint(0, 2)
     if flip == 0:
-        with open(f'coins/eagle.png', 'rb') as f:
+        with open(f'animal/eagle.png', 'rb') as f:
             # В переменную кладем файл, который преобразуется в файл библиотеки Discord!
             picture = discord.File(f)
     # Можем передавать файл как параметр!
         await ctx.send(file=picture)
         await ctx.channel.send("# ㅤEAGLE")
     else:
-        with open(f'coins/tails.png', 'rb') as f:
+        with open(f'animal/tails.png', 'rb') as f:
             # В переменную кладем файл, который преобразуется в файл библиотеки Discord!
             picture = discord.File(f)
     # Можем передавать файл как параметр!
