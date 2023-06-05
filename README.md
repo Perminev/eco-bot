@@ -11,6 +11,7 @@
 ### ‣ Say how to help the ecology
 ### ‣ Flip coin
 ### ‣ Send random emoji
+### ‣ Tell about it
 ## ***HOW TO USE IT***
 ### > 1 [Download](https://www.python.org/downloads/) and install python 3.8 or newer
 ### > 2 Install discord library for python : 
