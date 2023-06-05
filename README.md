@@ -19,5 +19,5 @@
 pip install discord
 ```
 ### > 3 Enter your bot token in settings.py
-### > 4 Run main.py.
+### > 4 Run main.py
 ### > 4 Send command `$guide` and enjoy!
