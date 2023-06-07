@@ -13,9 +13,9 @@
 ### ‣ Send stickers with chubby(пухлик)
 ### ‣ Say how to help the ecology
 ### ‣ Flip coin
-### ‣ Send random emoji
+### ‣ Send random green emoji
 ### ‣ Tell about it
-### ‣ Random facts about ecology
+### ‣ Send random facts about ecology
 ## ***HOW TO USE IT***
 ### > 1 [Download](https://www.python.org/downloads/) and install python 3.10 or newer
 ### > 2 Install required libraries for python : 
