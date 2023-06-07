@@ -1,5 +1,5 @@
 import random
-import time
+import emoji
 
 def gen_emodji():
     emodji = [emoji.emojize(':herb:'), emoji.emojize(':teacup_without_handle:'), emoji.emojize(':green_heart:'), emoji.emojize(':seedling:')]
