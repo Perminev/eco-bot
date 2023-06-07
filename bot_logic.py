@@ -1,5 +1,6 @@
 import random
+import time
 
 def gen_emodji():
-    emodji = ["\U0001F33F", "\U0001F375", "\U0001F49A", "\U0001F331"]
+    emodji = [emoji.emojize(':herb:'), emoji.emojize(':teacup_without_handle:'), emoji.emojize(':green_heart:'), emoji.emojize(':seedling:')]
     return random.choice(emodji)
